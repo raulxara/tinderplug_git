@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+/*Boot CSS**/
+
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.w20{
+	width: 20%;
+}
+
+.w33{
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.w50{
+	padding: 0 2%;
+	width: 50%;
+}
+
+.w30{
+	width: 30%;
+}
+
+.w70{
+	width: 70%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{clear:  both;}
+
+.text-center{ text-align: center; }
+
+/**Estilizacao do sit**/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a3033; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3033; 
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background-image: linear-gradient(to right, #DD4587, #FF8941);
+}
+
+.login{
+	text-align: center;
+}
+
+.login h1{
+	margin-top: 70px;
+	font-size: 80px;
+	color: white;
+	font-weight: 700;
+}
+
+.login form{
+}
+
+.login input[type=text],
+.login input[type=password]{
+	width: 300px;
+	height: 45px;
+	padding-left: 17px;
+	border-radius: 28px;
+	font-weight: 400;
+	font-size: 13px;
+	color: #000712;
+	outline: none;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.login input[type=text]{
+	margin-top: 40px;
+}
+
+.login input[type=submit]{
+	cursor: pointer;
+	height: 45px;
+	background: #66bf32;
+	color: white;
+	border-radius: 28px;
+	border: 0px;
+	width: 300px;
+	font-weight: 600;
+	font-size: 17px;
+	margin: 10px auto;
+}
+
+.sidebar{
+	width: 350px;
+	height: 100%;
+	background: white;
+	float: left;
+}
+
+.topo{
+	padding: 10px;
+	background: #DD4587;
+	color: white;
+}
+
+.topo h3{
+	font-size: 20px;
+}
+
+.topo a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.btn-coord{
+	text-align: center;
+}
+
+.btn-coord button{
+	cursor: pointer;
+	background: #66bf32;
+	color: white;
+	border-radius: 28px;
+	border: 0px;
+	font-weight: 600;
+	font-size: 17px;
+	padding: 10px 15px;
+	margin-top: 20px;
+}
+
+.info-localizacao{
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.info-localizacao p{
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.box-usuario-like{
+	float: left;
+	width: calc(100% - 350px);
+	padding: 40px 2%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.box-usuario-nome h2{
+	font-size: 80px;
+	color: black;
+	font-weight: 700;
+
+}
+
+.box-usuario-nome a{
+ font-size: 60px;
+ margin: 10px 20px;
+}
+
+.meus-crush{
+	margin-top: 30px;
+}
+
+.meus-crush h1{
+	background: #DD4587;
+	color: white;
+	padding-left: 10px;
+}
+.meus-crush li{
+	padding: 3px 10px;
+	font-size: 17px;
+	font-weight: 600;
+}
